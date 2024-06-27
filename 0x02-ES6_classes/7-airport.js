@@ -1,4 +1,3 @@
-
 export default class Airport {
   constructor(name, code) {
     this._name = name;
@@ -9,4 +8,3 @@ export default class Airport {
     return `[object ${this._code}]`;
   }
 }
-
