@@ -1,4 +1,3 @@
-
 export default function getFullResponseFromAPI(success) {
   const arr = new Promise((resolve, reject) => {
     if (success) {
@@ -9,4 +8,3 @@ export default function getFullResponseFromAPI(success) {
   });
   return arr;
 }
-
